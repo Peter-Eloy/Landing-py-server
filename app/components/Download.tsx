@@ -61,34 +61,11 @@ export default function Download() {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Download Mock API Server
           </h2>
-          <p className="text-xl text-gray-400 mb-6">
+          <p className="text-xl text-gray-400">
             {detectedOS !== "Unknown" && detectedOS !== "Linux"
               ? `Detected: ${detectedOS}`
               : "Choose your platform"}
           </p>
-
-          {/* Version Badge */}
-          <a
-            href={releasesUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-full text-sm text-gray-300 hover:bg-gray-700 hover:border-purple-500/50 transition-all"
-          >
-            <svg
-              className="w-4 h-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
-              />
-            </svg>
-            Latest Release
-          </a>
         </div>
 
         {/* Download Buttons */}
