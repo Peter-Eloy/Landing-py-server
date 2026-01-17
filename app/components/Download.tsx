@@ -11,7 +11,7 @@ export default function Download() {
 
   const downloadUrls = {
     windows: `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/releases/latest/download/MockAPIServer.exe`,
-    macos: `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/releases/latest/download/MockAPIServer.dmg`,
+    macos: `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/releases/latest/download/MockAPIServer.pkg`,
   };
 
   const releasesUrl = `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/releases`;
@@ -49,7 +49,7 @@ export default function Download() {
         </svg>
       ),
       url: downloadUrls.macos,
-      fileType: ".dmg",
+      fileType: ".pkg",
     },
   ];
 

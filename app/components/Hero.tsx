@@ -4,7 +4,7 @@ export default function Hero() {
 
   const downloadUrls = {
     windows: `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/releases/latest/download/MockAPIServer.exe`,
-    macos: `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/releases/latest/download/MockAPIServer.dmg`,
+    macos: `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/releases/latest/download/MockAPIServer.pkg`,
   };
 
   return (
