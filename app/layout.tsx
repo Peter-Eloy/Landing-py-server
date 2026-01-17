@@ -72,10 +72,40 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Mock API Server",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Windows, macOS",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "Free desktop app for creating mock REST APIs. No coding required. Perfect for frontend developers, QA testers, and API prototyping.",
+    "downloadUrl": "https://github.com/Peter-Eloy/py-server/releases",
+    "softwareVersion": "1.0.0",
+    "author": {
+      "@type": "Person",
+      "name": "Peter Eloy",
+      "url": "https://petereloy.dev"
+    },
+    "sameAs": [
+      "https://github.com/Peter-Eloy/py-server",
+      "https://x.com/petereloy",
+      "https://www.instagram.com/peter.eloy/"
+    ]
+  };
+
   return (
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
       <body>{children}</body>
     </html>
