@@ -2,6 +2,7 @@
 const nextConfig = {
   output: "export",
   basePath: "/Landing-py-server",
+  assetPrefix: "/Landing-py-server",
   images: {
     unoptimized: true,
   },
