@@ -54,6 +54,7 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
 ## 📸 Assets Needed
 
 Add these images to the `public/` folder:
+
 - `screenshot.png` (1200x800px) - App screenshot
 - `og-image.png` (1200x630px) - Social sharing image
 - `favicon.ico` - Browser favicon

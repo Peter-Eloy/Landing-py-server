@@ -1,6 +1,7 @@
 # Deployment Instructions
 
 ## Prerequisites
+
 - Node.js 20+ installed
 - GitHub account
 - Git repository: `https://github.com/Peter-Eloy/Landing-py-server`
@@ -110,7 +111,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install dependencies
         run: npm ci
@@ -136,6 +137,7 @@ jobs:
 ```
 
 After creating this file:
+
 1. Commit and push to your `main` branch
 2. Go to **Settings** → **Pages**
 3. Under **Source**, select **GitHub Actions**
@@ -160,14 +162,17 @@ Also add an Open Graph image for social sharing:
 ## Troubleshooting
 
 ### 404 on GitHub Pages
+
 - Ensure the `basePath` in `next.config.js` matches your repository name (`/Landing-py-server`)
 - Check that files are in the `gh-pages` branch root
 
 ### Styles not loading
+
 - Verify all asset paths use the basePath prefix: `/Landing-py-server/...`
 - Check browser console for 404 errors
 
 ### Build fails
+
 ```bash
 # Clear cache and rebuild
 rm -rf .next out node_modules

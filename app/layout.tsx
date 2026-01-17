@@ -3,7 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Mock API Server - Build and Test APIs Without Backend Code",
-  description: "Free desktop app for creating mock REST APIs. No coding required. Perfect for frontend developers, QA testers, and API prototyping.",
+  description:
+    "Free desktop app for creating mock REST APIs. No coding required. Perfect for frontend developers, QA testers, and API prototyping.",
   keywords: [
     "mock API server",
     "API testing tool",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     "mock server",
     "API prototyping",
     "frontend development",
-    "QA testing"
+    "QA testing",
   ],
   authors: [{ name: "Mock API Server" }],
   creator: "Mock API Server",
@@ -24,7 +25,8 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://peter-eloy.github.io/Landing-py-server",
     title: "Mock API Server - Build and Test APIs Without Backend Code",
-    description: "Free desktop app for creating mock REST APIs. No coding required. Perfect for frontend developers, QA testers, and API prototyping.",
+    description:
+      "Free desktop app for creating mock REST APIs. No coding required. Perfect for frontend developers, QA testers, and API prototyping.",
     siteName: "Mock API Server",
     images: [
       {
@@ -38,7 +40,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Mock API Server - Build and Test APIs Without Backend Code",
-    description: "Free desktop app for creating mock REST APIs. No coding required. Perfect for frontend developers, QA testers, and API prototyping.",
+    description:
+      "Free desktop app for creating mock REST APIs. No coding required. Perfect for frontend developers, QA testers, and API prototyping.",
     images: ["/Landing-py-server/og-image.png"],
   },
   robots: {
