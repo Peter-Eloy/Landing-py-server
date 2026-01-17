@@ -42,7 +42,7 @@ public/
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
 
-**Live site:** https://peter-eloy.github.io/py-server/
+**Live site:** https://peter-eloy.github.io/Landing-py-server/
 
 ## 📝 Development
 

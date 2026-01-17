@@ -3,7 +3,7 @@
 ## Prerequisites
 - Node.js 20+ installed
 - GitHub account
-- Git repository: `https://github.com/Peter-Eloy/py-server`
+- Git repository: `https://github.com/Peter-Eloy/Landing-py-server`
 
 ## 1. Build the Static Export
 
@@ -33,7 +33,7 @@ npx serve out
 serve out
 ```
 
-Visit `http://localhost:3000/py-server` in your browser to test the site.
+Visit `http://localhost:3000/Landing-py-server` in your browser to test the site.
 
 ## 3. Manual Deployment to GitHub Pages
 
@@ -54,7 +54,7 @@ git add .
 git commit -m "Deploy landing page"
 
 # Add remote (if not already added)
-git remote add origin https://github.com/Peter-Eloy/py-server.git
+git remote add origin https://github.com/Peter-Eloy/Landing-py-server.git
 
 # Force push to gh-pages branch
 git push -f origin gh-pages
@@ -73,14 +73,14 @@ git subtree push --prefix out origin gh-pages
 
 ## 4. Enable GitHub Pages
 
-1. Go to your repository: `https://github.com/Peter-Eloy/py-server`
+1. Go to your repository: `https://github.com/Peter-Eloy/Landing-py-server`
 2. Click **Settings** → **Pages**
 3. Under **Source**, select:
    - Branch: `gh-pages`
    - Folder: `/ (root)`
 4. Click **Save**
 
-Your site will be available at: `https://peter-eloy.github.io/py-server/`
+Your site will be available at: `https://peter-eloy.github.io/Landing-py-server/`
 
 ## 5. Automated Deployment with GitHub Actions (Recommended)
 
@@ -160,11 +160,11 @@ Also add an Open Graph image for social sharing:
 ## Troubleshooting
 
 ### 404 on GitHub Pages
-- Ensure the `basePath` in `next.config.js` matches your repository name
+- Ensure the `basePath` in `next.config.js` matches your repository name (`/Landing-py-server`)
 - Check that files are in the `gh-pages` branch root
 
 ### Styles not loading
-- Verify all asset paths use the basePath prefix: `/py-server/...`
+- Verify all asset paths use the basePath prefix: `/Landing-py-server/...`
 - Check browser console for 404 errors
 
 ### Build fails

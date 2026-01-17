@@ -18,17 +18,17 @@ export const metadata: Metadata = {
   authors: [{ name: "Mock API Server" }],
   creator: "Mock API Server",
   publisher: "Mock API Server",
-  metadataBase: new URL("https://github.com/py-server"),
+  metadataBase: new URL("https://peter-eloy.github.io/Landing-py-server"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://github.com/py-server",
+    url: "https://peter-eloy.github.io/Landing-py-server",
     title: "Mock API Server - Build and Test APIs Without Backend Code",
     description: "Free desktop app for creating mock REST APIs. No coding required. Perfect for frontend developers, QA testers, and API prototyping.",
     siteName: "Mock API Server",
     images: [
       {
-        url: "/py-server/og-image.png",
+        url: "/Landing-py-server/og-image.png",
         width: 1200,
         height: 630,
         alt: "Mock API Server - Build and Test APIs Without Backend Code",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mock API Server - Build and Test APIs Without Backend Code",
     description: "Free desktop app for creating mock REST APIs. No coding required. Perfect for frontend developers, QA testers, and API prototyping.",
-    images: ["/py-server/og-image.png"],
+    images: ["/Landing-py-server/og-image.png"],
   },
   robots: {
     index: true,
@@ -53,8 +53,8 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/py-server/favicon.ico",
-    apple: "/py-server/apple-touch-icon.png",
+    icon: "/Landing-py-server/favicon.ico",
+    apple: "/Landing-py-server/apple-touch-icon.png",
   },
 };
 
